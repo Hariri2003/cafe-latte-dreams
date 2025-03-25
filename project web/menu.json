@@ -9,18 +9,30 @@
         "name": "Latte",
         "price": "$3.50",
         "description": "Creamy latte with steamed milk.",
-        "image": "projectimages/espresso.jpg"
+        "image": "projectimages/cafelatte.jpg"
     },
     {
         "name": "Cappuccino",
         "price": "$3.00",
         "description": "Espresso with foamed milk.",
-        "image": "projectimages/espresso.jpg"
+        "image": "projectimages/cappucino.jpg"
     },
     {
         "name": "Mocha",
         "price": "$4.00",
         "description": "Chocolate-infused coffee delight.",
-        "image": "projectimages/espresso.jpg"
+        "image": "projectimages/mocha.jpg"
+    },
+    {
+        "name": "Hot Chocolate",
+        "price": "$2.50",
+        "description": "Chocolate-infused delight.",
+        "image": "projectimages/hotchocolate.jpg"
+    },
+    {
+        "name": "Dreams Latte",
+        "price": "$5.00",
+        "description": "Our secret recipe.",
+        "image": "projectimages/dreamslatte.jpg"
     }
 ]

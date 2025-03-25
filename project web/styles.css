@@ -6,24 +6,71 @@ body {
 }
 
 header {
-    background: #6b4226;
+    background-color: #6b4226;
     color: white;
-    padding: 15px;
+    padding: 20px;
 }
 
+
+.background{
+    display: block;
+    margin: 20px auto; /* Center the image */
+    width: 60%; /* Adjust size */
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Nav Layout */
 nav ul {
     list-style: none;
     padding: 0;
+    margin-top: 10px;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .header-top {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 0 0 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
 }
 
 section {
@@ -62,6 +109,9 @@ section {
 footer {
     background: #222;
     color: white;
-    padding: 10px;
-    margin-top: 20px;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 0;  
+    width: 100%;
 }
